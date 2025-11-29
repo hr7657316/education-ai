@@ -1,0 +1,7 @@
+{
+  "name": "VEDA AI",
+  "description": "An interactive learning tool where an AI tutor, VEDA AI, assists users in solving problems through conversation and on-the-fly image generation. The app uses Gemini Live for real-time voice interaction and Nano Banana for creating visual aids.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
