@@ -16,17 +16,17 @@ The application is built using a modern frontend stack integrated with powerful 
 
 ```mermaid
 graph TD
-    User[User] -->|Interacts| UI[Frontend (React + Vite)]
-    UI -->|Voice Input/Output| GeminiLive[Gemini Live API]
-    UI -->|Problem Generation| GeminiFlash[Gemini Flash API]
-    UI -->|Image Generation| FalAI[Fal.ai API]
-    UI -->|Canvas State| Tldraw[Tldraw Canvas]
+    User[User] -->|Interacts| UI["Frontend (React + Vite)"]
+    UI -->|Voice Input/Output| GeminiLive["Gemini Live API"]
+    UI -->|Problem Generation| GeminiFlash["Gemini Flash API"]
+    UI -->|Image Generation| FalAI["Fal.ai API"]
+    UI -->|Canvas State| Tldraw["Tldraw Canvas"]
     
     subgraph Frontend Components
-        App[App.tsx]
-        Slate[Slate Component]
-        Avatar[Floating AI Avatar]
-        Services[Services Layer]
+        App["App.tsx"]
+        Slate["Slate Component"]
+        Avatar["Floating AI Avatar"]
+        Services["Services Layer"]
     end
     
     App --> Slate
