@@ -1,4 +1,5 @@
 # VEDA AI
+<img width="1706" height="985" alt="image" src="https://github.com/user-attachments/assets/51dc2003-6835-42f3-b370-8e9fc5ac8545" />
 
 VEDA AI is an interactive learning tool where an AI tutor assists users in solving problems through conversation and on-the-fly image generation. The app uses Gemini Live for real-time voice interaction and Nano Banana for creating visual aids.
 
